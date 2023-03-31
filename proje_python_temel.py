@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+# listeyi düzleştiren (flatten) fonksiyon 
 def flatten(liste):
     t=("[","]", ",","'")
     string1 =""
@@ -21,6 +21,7 @@ def flatten(liste):
     return new_liste
 
 
+# elemanları tersine döndüren bir fonksiyon
 def tersi(liste):
     ters_liste=[]
     for i in l:

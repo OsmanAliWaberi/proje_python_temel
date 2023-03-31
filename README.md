@@ -31,14 +31,15 @@ def flatten(liste):
 ```python
 
 def tersi(liste):
-    liste=[]
+    ters_liste=[]
     for i in l:
-        lis=[]
+        l=[]
         for j in i:
-            lis.append(j)
-    lis.reverse()
-    liste.append(lis)
-    return liste.reverse()
+            l.append(j)
+        l.reverse()
+        ters_liste.append(lis)
+    
+    return ters_liste[::-1]
 
 ``` 
 
