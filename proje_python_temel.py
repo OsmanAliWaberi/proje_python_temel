@@ -20,14 +20,15 @@ def flatten(liste):
     new_liste = string2.split(" ")
     return new_liste
 
-    
+
 def tersi(liste):
-    liste=[]
+    ters_liste=[]
     for i in l:
-        lis=[]
+        l=[]
         for j in i:
-            lis.append(j)
-    lis.reverse()
-    liste.append(lis)
-    return liste.reverse()
+            l.append(j)
+        l.reverse()
+        ters_liste.append(lis)
+    
+    return ters_liste[::-1]
 
